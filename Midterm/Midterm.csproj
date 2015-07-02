@@ -141,6 +141,7 @@
       <DependentUpon>SchoolCoursesModel.edmx</DependentUpon>
       <LastGenOutput>SchoolCoursesModel.cs</LastGenOutput>
     </Content>
+    <None Include="Properties\PublishProfiles\Niks-Midterm.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
