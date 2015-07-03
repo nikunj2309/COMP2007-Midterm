@@ -71,8 +71,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\images\school_icon.jpg" />
-    <Content Include="school.Master" />
     <None Include="Properties\PublishProfiles\Niks-Midterm.pubxml" />
+    <Content Include="school.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

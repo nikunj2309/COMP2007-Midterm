@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="school.master.cs" Inherits="Midterm.school" %>
+
+<!DOCTYPE html>
+<!-- Developer : Nikunj Vala -->
+<!-- Project: SchoolCourses.ca -->
+<!-- Description: School Courses Information -->
+<!-- Date Initiated : 2nd july 2015 -->
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="School Courses Informationn">
+    <meta name="author" content="Nikunj Vala">
+    <!--website Icon -->
+    <link rel="shortcut icon" href="Assets/images/school_icon.jpg" />
+    <title></title>
+    <!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/carousel.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <div class="navbar-wrapper">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">School Courses!!</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Default.aspx">Home</a></li>
+                            <li><a href="/Courses">Courses</a></li>
+                            <li><a href="https://github.com/nikunj2309/COMP2007-Midterm" target="_blank">Github</a></li>
+                            <li><a href="http://www.nikunjvala.com/" target="_blank">About Me</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    <!-- end of NAVBAR -->
+
+    <!-- Content page section -->
+    <div class="container">
+        <form id="form1" runat="server">
+            <div class="form-group">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+    <!-- /.container -->
+
+    <!-- FOOTER -->
+
+    <footer>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2015 SchoolCourses.ca. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/main.js"></script>
+</body>
+</html>
